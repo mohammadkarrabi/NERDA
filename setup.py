@@ -17,7 +17,7 @@ setuptools.setup(
     python_requires='>=3.6',
     install_requires=[
         'torch',
-        'transformers',
+        'transformers==4.24.0',
         'scikit-learn',
         'nltk',
         'pandas',
